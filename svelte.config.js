@@ -8,12 +8,9 @@ const config = {
     kit: {
         adapter: adapter({
 			fallback: '200.html',
-            pages: "docs",
-            assets: "docs"
+            pages: "build",
+            assets: "build"
         }),
-		paths: {
-			base: dev ? '' : ''
-		}
     }
 };
 
